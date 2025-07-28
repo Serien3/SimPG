@@ -6,7 +6,7 @@ This section describes in detail the public interfaces (classes/functions) of ea
 
 ---
 
-## Data Structures
+## Data Structures  - `SimPG.classes`
 
 ```python
 from SimPG.SPexpe import Minigfa,Minibed
@@ -93,7 +93,7 @@ class Minibed:
 
 ---
 
-## Algorithm Functions
+## Algorithm Functions  - `SimPG.core`
 
 ```python
 # This is core pipeline function
@@ -343,7 +343,7 @@ def simulate_Whole_Genome_Sequencing_for_population(
 
 ---
 
-## Additional utility functions
+## Additional utility functions  - `SimPG.utils`
 
 ```python
 from SimPG.SPexpe import sim_part, sim_part_for_num
