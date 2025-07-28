@@ -1,6 +1,6 @@
 import random
 import os
-from .classes import Minibed, Minigfa
+from ..classes import Minibed, Minigfa
 from . import logger
 import time
 

@@ -5,7 +5,7 @@ import networkx as nx
 from . import logger
 from collections import Counter, deque
 from typing import Optional
-from .classes import Minigfa, Minibed
+from ..classes import Minigfa, Minibed
 import os
 import time
 

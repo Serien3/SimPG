@@ -2,7 +2,7 @@
 
 import pickle
 from collections import Counter
-from .classes import Minigfa
+from ..classes import Minigfa
 from . import logger
 from typing import Optional
 import os

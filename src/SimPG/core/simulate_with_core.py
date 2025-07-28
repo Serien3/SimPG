@@ -3,7 +3,7 @@ import networkx as nx
 import random
 from . import logger
 import json
-from .classes import Minigfa
+from ..classes import Minigfa
 from typing import Optional
 import re
 import os

@@ -5,7 +5,7 @@ import networkx as nx
 from collections import deque
 from typing import List, Tuple, Any, Optional
 from . import logger
-from .classes import Minibed, Minigfa
+from ..classes import Minibed, Minigfa
 import os
 
 __all__ = ["simulate_population_every_walk"]

@@ -2,11 +2,13 @@
 
 import pickle
 import networkx as nx
-from .classes import Minibed
+from ..classes import Minibed
 from . import logger
 from typing import Optional
 import os
 import time
+
+__all__ = ["simulate_Population_Pangenome"]
 
 
 def _save_graph(graph, s: str) -> None:

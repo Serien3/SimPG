@@ -1,10 +1,6 @@
-from .classes import *
-from .GFA2Graph import *
-from .get_sample_walk import *
-from .get_pangenome import *
-from .get_core import *
-from .simulate_with_core import *
-from .set_default_logging import *
+from classes import *
+from core import *
+from utils import *
 
 
 def run_SimPG(
