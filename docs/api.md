@@ -2,12 +2,14 @@
 
 This section describes in detail the public interfaces (classes/functions) of each part under `SimPG`.
 
+**⚠️ Experimental — All interfaces imported from `SimPG.SPexpe` may change or be removed in minor releases.**
+
 ---
 
 ## Data Structures
 
 ```python
-from SimPG import Minigfa,Minibed
+from SimPG.SPexpe import Minigfa,Minibed
 ```
 
 ---
@@ -25,6 +27,7 @@ class Minigfa:
 ```
 
 - **Description**
+
   Composite data storing GFA file information.
   Notice: Only lines S and L can be processed, lines starting with other letters are discarded
 
@@ -68,7 +71,9 @@ class Minibed:
 ```
 
 - **Description**
+
   Construct a composite data storing BED file information, and this class is iterable.
+  
 - **Methods**
 
 | Methods                                                                         | Description                                                                                                                                                                                                                                             |
@@ -147,7 +152,8 @@ from SimPG import run_SimPG
 
 ```python
 # These are the steps functions that make up the core pipeline
-from SimPG import turn_GFA_to_DiGraph, simulate_population_every_walk, simulate_Population_Pangenome, get_coreSeg_in_Pangenome, simulate_Whole_Genome_Sequencing_for_population
+from SimPG.SPexpe import turn_GFA_to_DiGraph, simulate_population_every_walk, simulate_Population_Pangenome, get_coreSeg_in_Pangenome
+from SimPG import simulate_Whole_Genome_Sequencing_for_population
 import networkx as nx
 ```
 
@@ -337,10 +343,11 @@ def simulate_Whole_Genome_Sequencing_for_population(
 
 ---
 
-## Additional callable helper functions
+## Additional utility functions
 
 ```python
-from SimPG import sim_part, sim_part_for_num, set_default_logging
+from SimPG.SPexpe import sim_part, sim_part_for_num
+from SimPG import et_default_logging
 ```
 
 ---
