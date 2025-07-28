@@ -1,6 +1,6 @@
-from classes import *
-from core import *
-from utils import *
+from .classes import *
+from .core import *
+from .utils import *
 
 
 def run_SimPG(
