@@ -1,6 +1,8 @@
 # SimPG
 
 ![tip](https://badgen.net/badge/python/3.9/green?icon=github)
+![tip](https://badgen.net/github/license/Serien3/SimPG)
+![tip](https://badgen.net/github/last-commit/Serien3/SimPG)
 
 A novel simulation tool that generates individual genomes with population-level characteristics by leveraging the rich variant and structural information embedded in pangenomes.
 
