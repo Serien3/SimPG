@@ -65,7 +65,7 @@ Actually, in the HPRC pangenome graphs, the **`SN:Z:`** field uses the Pangenome
 
 - `NA21110.2`
 
-  ​	The sample identifier (here, individual NA21110, assembly version 2).
+  ​	The sample identifier (here, individual NA21110, assembly version 2 used to specify a haplotype).
 
 - `#2`
 
@@ -79,10 +79,10 @@ Putting it all together, that tag tells you “this segment comes from contig `J
 
 It should be noted that our tool processes `rGFA` files based on two important assumptions:
 
-1. Assembly version in sample identifier and Haplotype are equivalent. So you can think `SN:Z:NA21110.2#2#JBHIJJ010000042.1` and `SN:Z:NA21110.2##` are equivalent.  (**Notice: This is only for the case where SR>0**)
-2. The sample identifier and SR are one-to-one corresponding. for example, all segments derived from `NA21110.2` have a `SR` of `199`. In other words, when you use `Minigraph` to build a pangenome graph, you need to ensure that the `SampleID` part in the header of the `fasta` file of any two assembly is not repeated.
+1. SimPG only parses the sample identifier part of SN. If multiple chromosomes of a polyploidy participate in the construction of the pangenome，one sample identifier corresponds to one haplotype. So you can think `SN:Z:NA21110.2#2#JBHIJJ010000042.1` and `SN:Z:NA21110.2##` are equivalent.  (**Notice: This is only for the case where SR>0**)
+2. The sample identifier and SR are one-to-one corresponding. For example, all segments derived from `NA21110.2` have a `SR` of `199`. In other words, when you use `Minigraph` to build a pangenome graph, you need to ensure that the `SampleID` part in the header of the `fasta` file of any two assembly is not repeated.
 
-For example, for `SN:Z:NA21110#2#    SR:i:199` and `SN:Z:NA21110#1#    SR:i:198`, SimPG will assume that they are the genomes of the same sample chromosome, though their `SR` are different. 
+For example, for `SN:Z:NA21110#2#    SR:i:199` and `SN:Z:NA21110#1#    SR:i:198`, SimPG will assume that they are the same haplotype genome, though their `SR` are different. So it is necessary to add the assembly version at this time.
 
 On the other hand, we will notice that there is some linear reference genome segments with `SR=0` in the pangenome graph. For their SN tags, `<ContigID>` must exist and is used to represent the chromosome name where the segment is located. For example, `CHM13#0#chr1` is acceptable.
 
@@ -124,7 +124,7 @@ HG02738.1
 ...
 ```
 
-Every line is `sampleI identifier`(Including assembly version). However, most of the time, you only know the name of the sample you want to extract, not the complete `SampleID`. In order to avoid users manually copying and entering the version number, we provide a [script](./scripts/turn_sampleID_standard.py) to help you convert.
+Every line is `sample identifier`(Including assembly version). However, most of the time, you only know the name of the sample you want to extract, not the complete `SampleID`. In order to avoid users manually copying and entering the version number, we provide a [script](./scripts/turn_sampleID_standard.py) to help you convert.
 
 If you have a file like this :
 
@@ -135,7 +135,7 @@ HG03927
 HG02738
 ```
 
-Each sample is diploid, and each chromosome of the sample is involved in the construction of the pangenome. Execute the script via command 
+It is known that each sample is diploid and each chromosome of the sample is involved in the construction of the pan-genome. Execute the script via command 
 
 ```bash 
 $ python3 <filePath_in> <filePath_out> <sample_chromosome_ploidy>(Default is 2)
