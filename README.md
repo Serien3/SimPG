@@ -4,7 +4,7 @@
 ![tip](https://badgen.net/github/license/Serien3/SimPG)
 ![tip](https://badgen.net/github/last-commit/Serien3/SimPG)
 
-A novel simulation tool that generates individual genomes with population-level characteristics by leveraging the rich variant and structural information embedded in pangenomes.
+A population-specific haplotype genome simulation tool developed based on pangenome data.
 
 ## Table of contents
 
