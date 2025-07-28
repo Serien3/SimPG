@@ -35,8 +35,8 @@ $ git clone https://github.com/Serien3/SimPG.git && cd SimPG/ && pip install .
 ## Dependencies
 
 ```
-This package temporarily only depends on the third-party library networkx at runtime.So it's very lightweight
-We recommend using networkx==3.5.
+This package temporarily only depends on the third-party library networkx at runtime. So it's very lightweight.
+We recommend using networkx==3.5 and python>=3.9.
 ```
 
 ## Prepare Materials
