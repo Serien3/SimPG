@@ -51,7 +51,7 @@ Based on the standard file format, the tool also has certain requirements for th
 
 ## Getting Start
 
-Before using this tool, please refer to the [data format](./docs/data-formats.md) to prepare the input file accepted. If you are sure your documents are acceptable and correctly installed `SimPG`, you can use the following python script to quickly start a simulation work.
+Before using this tool, please refer to the [data format](./docs/data-formats.md) to prepare the input file accepted. If you are sure your input file are acceptable and correctly installed `SimPG`, you can use the following python script to quickly start a simulation work.
 
 ```python
 # start_quick.py
