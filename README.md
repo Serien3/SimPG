@@ -25,7 +25,7 @@ The rapid advancement of high-throughput genome sequencing has enabled large-sca
 ## Installation
 
 ```bash
-$ pip install https://github.com/Serien3/SimPG.git
+$ pip install git+https://github.com/Serien3/SimPG.git
 -- OR --
 $ git clone https://github.com/Serien3/SimPG.git && cd SimPG/ && pip install .
 ```
