@@ -76,7 +76,7 @@ The File [example.py](./scripts/example.py) demonstrates typical uses of python 
 
 ### CLI  Reference
 
-With the package, a command line tool called SimPG is also installed. It currently allows users to quickly perform a full-pipeline simulation of SimPG through the command line. Call it with `-h` or `--help` for help.
+With the package, a command line tool called `SimPG` is also installed. It currently allows users to quickly perform a full-pipeline simulation of SimPG through the command line. Call it with `-h` or `--help` for help.
 
 However, for some reasons, we cannot guarantee the stability and timely updates of the command line tools, even though we will always keep the most basic functions normal. Therefore, if you have more personalized needs or want stability, it is recommended to use APIs to write scripts to run.
 
