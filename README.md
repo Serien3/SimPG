@@ -2,7 +2,7 @@
 
 ![tip](https://badgen.net/badge/python/3.9/green?icon=github)
 ![tip](https://badgen.net/github/license/Serien3/SimPG)
-![tip](https://badgen.net/github/last-commit/Serien3/SimPG)
+![Last Update](https://img.shields.io/github/last-commit/Serien3/SimPG.svg?label=Last%20Update)
 
 A population-specific haplotype genome simulation tool developed based on pangenome data.
 
