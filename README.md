@@ -70,7 +70,7 @@ Among them, `rvcf` is a non-standard output file we created with the help of pan
 
 ### API  Reference
 
-SimPG is not only a standardized process tools, but also a programming library. SimPG provides and maintains some python APIs. Full API reference documentation is available at [api reference](./docs/api.md) . SimPG aims to keep APIs in [SimPG.py](./src/SimPG/SimPG.py) and will ensure the stability of these APIs in the current version. The [SPexpe.py](./src//SimPG//SPexpe.py) file contains some experimental APIs, which may change frequently in the current version, but their general functions will not change.
+SimPG is not only a standardized process tools, but also a programming library. SimPG provides some python APIs to reconstruct the pangenome graph and implement the various steps of the simulation. Full API reference documentation is available at [api reference](./docs/api.md) . SimPG aims to keep APIs in [SimPG.py](./src/SimPG/SimPG.py) and will ensure the stability of these APIs in the current version. The [SPexpe.py](./src//SimPG//SPexpe.py) file contains some experimental APIs, which may change frequently in the current version, but their general functions will not change.
 
 The File [example.py](./scripts/example.py) demonstrates typical uses of python APIs. In fact, the effect of [example.py](./scripts/example.py) is the same as the script shown in [getting start](#getting-start).
 
