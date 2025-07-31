@@ -1,7 +1,7 @@
 """example.py: A simple example script for an API call"""
 
 from SimPG import *
-
+from SimPG.SPexpe import *
 
 def run_example():
     set_default_logging()  # Configuring Logging
