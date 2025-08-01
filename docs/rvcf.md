@@ -15,3 +15,14 @@ For example,
 ```
 
 Obviously, this indicates an insertional structural variation. Among them, "-" represents the reverse complementary sequence of the connected segment sequence。
+
+If you want to convert the `rvcf` file into a standard `vcf` format data file that records sequence variations, we provide a [script](../scripts/rvcf_to_vcf.py) to help with this conversion. To use it, enter the following command in the command line :
+
+```bash 
+python3 rvcf_to_vcf.py --rvcf_in <rvcf_file_path>\
+> --vcf_out <vcf_file_path>\
+> --source_GFA <GFA_file_path>\
+> [--sample_name <sample_name>]
+```
+
+**Note: <sample_name> defaults to "my_sim_answer"**

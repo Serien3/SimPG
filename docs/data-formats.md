@@ -138,7 +138,7 @@ HG02738
 It is known that each sample is diploid and each chromosome of the sample is involved in the construction of the pan-genome. Execute the script via command 
 
 ```bash 
-$ python3 <filePath_in> <filePath_out> <sample_chromosome_ploidy>(Default is 2)
+$ python3 turn_sampleID_standard.py <filePath_in> <filePath_out> <sample_chromosome_ploidy>(Default is 2)
 ```
 
 You will get a new file like: 
