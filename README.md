@@ -1,7 +1,7 @@
 # SimPG
 
 ![tip](https://badgen.net/badge/python/3.9/green?icon=github)
-![tip](https://badgen.net/github/license/Serien3/SimPG)
+[![License](https://img.shields.io/github/license/Serien3/SimPG.svg?color=red)](./LICENSE)
 ![Last Update](https://img.shields.io/github/last-commit/Serien3/SimPG.svg?label=Last%20Update)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Serien3/SimPG?style=flat-square)](https://github.com/Serien3/SimPG/releases)
 
@@ -92,6 +92,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 ## Contact
 
 For advising, bug reporting and requiring help, please post on [Github Issue](https://github.com/Serien3/SimPG/issues) or contact whhit1825@outlook.com
+
 
 
 
