@@ -1,4 +1,4 @@
-from . import *
+from SimPG import run_SimPG
 import argparse
 
 
