@@ -5,7 +5,7 @@
 ![Last Update](https://img.shields.io/github/last-commit/Serien3/SimPG.svg?label=Last%20Update)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Serien3/SimPG?style=flat-square)](https://github.com/Serien3/SimPG/releases)
 
-A population-specific haplotype genome simulation tool developed based on pangenome data.
+**A population-specific haplotype genome simulation tool developed based on pangenome data.**
 
 ## Table of contents
 
@@ -92,6 +92,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 ## Contact
 
 For advising, bug reporting and requiring help, please post on [Github Issue](https://github.com/Serien3/SimPG/issues) or contact whhit1825@outlook.com
+
 
 
 
