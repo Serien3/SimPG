@@ -17,7 +17,7 @@
 - [Usage](#usage)
   - [API  Reference](#api--reference)
   - [CLI  Reference](#cli--reference)
-- [Datasets generated from SimPG](#datasets-generated-from-simpg)
+- [Citation](#citation)
 - [License](#license)
 - [Contact](#contact)
 
@@ -81,9 +81,9 @@ With the package, a command line tool called `SimPG` is also installed. It curre
 
 However, for some reasons, we cannot guarantee the stability and timely updates of the command line tools, even though we will always keep the most basic functions normal. Therefore, if you have more personalized needs or want stability, it is recommended to use APIs to write scripts to run.
 
-## Datasets generated from SimPG
+## Citation
 
-In [simulation](./simulation/), you can see the results and the whole process of simulation using the Minigraph pangenome graphs for HPRC samples (v4.0) as input data.
+H. Yu et al. SimPG: A Pangenome-Guided Population-Specific Human Genome Simulation Tool. 2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2025. https://doi.org/10.1109/BIBM66473.2025.11356531
 
 ## License
 
