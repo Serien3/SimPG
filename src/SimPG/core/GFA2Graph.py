@@ -460,6 +460,7 @@ def _turn_GFA_to_DiGraph_complex(
             G.remove_node(x)
         sources_graph = [n for n in G.nodes() if G.in_degree(n) == 0]
         logger.debug(sources_graph)
+    sinks_graph = [n for n in G.nodes() if G.out_degree(n) == 0]
     while len(sinks_graph) > chrNum:
         for x in sinks_graph[chrNum:]:
             G.remove_node(x)

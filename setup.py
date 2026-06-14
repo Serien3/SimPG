@@ -21,7 +21,7 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     install_requires=["networkx==3.5"],
-    python_requires=">=3.9",
+    python_requires=">=3.11",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
