@@ -1,5 +1,5 @@
 __name__ = "SimPG"
-__version__ = "1.1.0"
+__version__ = "1.1.1"
 __author__ = "Serien3 "
 __author_email__ = "whhit1825@outlook.com"
 __description__ = "A population-specific haplotype genome simulation tool developed based on pangenome data"
