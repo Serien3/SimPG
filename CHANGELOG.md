@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [SimPG-v1.1.1] - 2026-06-14
+
+### Fixed
+
+- Fix undefined variable `sinks_graph` in `GFA2Graph.py`
+
+### Changed
+
+- Raise minimum Python version requirement from `>=3.9` to `>=3.11`
+
 ## [SimPG-v1.1.0] - 2025-09-09
 
 ### Changed
@@ -14,6 +24,7 @@ All notable changes to this project will be documented in this file.
 
 - First publish version
 
-[unreleased]: https://github.com/Serien3/SimPG/compare/v1.1.0...HEAD
+[unreleased]: https://github.com/Serien3/SimPG/compare/v1.1.1...HEAD
+[SimPG-v1.1.1]: https://github.com/Serien3/SimPG/compare/v1.1.0...v1.1.1
 [SimPG-v1.1.0]: https://github.com/Serien3/SimPG/compare/v1.0.0...v1.1.0
 [SimPG-v1.0.0]: https://github.com/Serien3/SimPG/releases/tag/v1.0.0
